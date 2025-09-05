@@ -1,3 +1,10 @@
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,13 +15,34 @@ body {
 header {
     background-color: #ff69b4;
     color: white;
-    padding: 20px;
+    padding: 100%;
     text-align: center;
+
+}
+
+.tituloprincipal
+{
+  font-family: "Italianno", cursive;
+  font-weight: 40px;
+  font-size: 50px;
+  font-style: normal;
+
+
+}
+
+.subtitulo
+{
+font-family: "Italianno", cursive;
+  font-weight: 40px;
+  font-size: 40px;
+  font-style: normal;
+
+
 }
 
 header img {
     display: block;
-    margin: 0 auto 10px;
+    margin: 1000px;
     border-radius: 50%;
 }
 

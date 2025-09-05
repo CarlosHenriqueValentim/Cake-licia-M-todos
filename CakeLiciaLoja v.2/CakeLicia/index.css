@@ -6,12 +6,29 @@ body {
     color: #333;
 }
 
+.tituloprincipal1
+{
+font-family: "Italianno", cursive;
+  font-weight: 40px;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.subtitulo1
+{
+font-family: "Italianno", cursive;
+  font-weight: 40px;
+  font-size: 50px;
+  font-style: normal;
+}
 
 header {
     background: linear-gradient(to right, #ff69b4, #ffb6c1);
     color: white;
     padding: 20px;
     text-align: center;
+
+
 }
 header img {
     display: block;
@@ -21,7 +38,7 @@ header img {
 
 nav {
     background: #ffe4ec;
-    padding: 12px;
+    padding: 10px;
     text-align: center;
     border-bottom: 2px solid #ff69b4;
 }
