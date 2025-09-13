@@ -2,58 +2,32 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>CakeLicia - Contato</title>
+    <title>Contato - CakeLicia</title>
     <link rel="stylesheet" href="contato.css">
-    <script src="contato.js" defer></script>
-    <link rel="icon" href="CupCakeRosaLogo.png" type="image/png">
 </head>
 <body>
-    <header>
-        <img src="CupCakeRosaLogo.png" alt="Logo CakeLicia" width="100">
-        <h1>📞 Contato CakeLicia</h1>
-        <p>Fale conosco, será um prazer atender você!</p>
-    </header>
+    <section>
+        <h2>📩 Envie uma Mensagem</h2>
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
 
-    <nav>
-        <a href="index.html">Início</a>
-        <a href="cardapio.html">Cardápio</a>
-    </nav>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
 
-    <main>
-        <section>
-            <h2>📍 Onde Estamos</h2>
-            <p><strong>Endereço:</strong> Rua dos Doces, 123 - Centro, Diadema - SP</p>
-            <p><strong>Telefone:</strong> (11) 99999-1234</p>
-            <p><strong>Email:</strong> atendimento@cakelicia.com</p>
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.977473926623!2d-46.6230563!3d-23.5689776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b9c2f8b1ab%3A0x8b0e3d5374b7c0e1!2sDiadema!5e0!3m2!1spt-BR!2sbr!4v1700000000000" 
-            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </section>
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone">
 
-        <section>
-            <h2>📩 Envie uma Mensagem</h2>
-            <form id="formContato" action="processa_contato.php" method="POST">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" rows="5" required></textarea>
 
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+        <p id="mensagemEnviada"></p>
+    </section>
 
-                <label for="telefone">Telefone:</label>
-                <input type="text" id="telefone" name="telefone">
 
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar</button>
-            </form>
-            <p id="mensagemEnviada"></p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 CakeLicia - Todos os direitos reservados</p>
-    </footer>
+    <script src="contato.js"></script>
 </body>
 </html>
