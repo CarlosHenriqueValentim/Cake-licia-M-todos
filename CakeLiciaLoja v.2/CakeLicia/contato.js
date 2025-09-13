@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const mensagemEnviada = document.getElementById("mensagemEnviada");
 
     form.addEventListener("submit", (event) => {
-        event.preventDefault();
+        event.preventDefault(); 
 
         const nome = document.getElementById("nome").value.trim();
         const email = document.getElementById("email").value.trim();
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        
+       
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
             mensagemEnviada.textContent = "⚠️ Informe um e-mail válido.";
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-       
+     
         mensagemEnviada.innerHTML = `
             ✅ Obrigado, <strong>${nome}</strong>! Sua mensagem foi registrada com sucesso.<br>
             📧 E-mail: ${email}<br>
@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
         mensagemEnviada.style.color = "green";
 
+   
         form.reset();
     });
 });
