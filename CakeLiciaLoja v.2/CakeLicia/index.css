@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8fb;
+    line-height: 1.6;
+    color: #333;
+}
+
+.tituloprincipal1
+{
+font-family: "Italianno", cursive;
+  font-weight: 40px;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.subtitulo1
+{
+font-family: "Italianno", cursive;
+  font-weight: 40px;
+  font-size: 50px;
+  font-style: normal;
+}
+
+header {
+    background: linear-gradient(to right, #ff69b4, #ffb6c1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+
+}
+header img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+
+nav {
+    background: #ffe4ec;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ff69b4;
+}
+nav a {
+    color: #d63384;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+nav a:hover {
+    background: #ff69b4;
+    color: white;
+}
+
+
+section {
+    padding: 25px;
+    text-align: center;
+}
+section h2 {
+    color: #d63384;
+    margin-bottom: 15px;
+}
+
+
+.galeria-loja {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.galeria-loja div {
+    background: white;
+    border: 3px solid #ffb6c1;
+    border-radius: 14px;
+    padding: 12px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.15);
+}
+.galeria-loja img {
+    border-radius: 12px;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.galeria div {
+    background: #fff;
+    border: 2px dashed #ffb6c1;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+}
+.galeria div:hover {
+    transform: scale(1.05);
+}
+.galeria img {
+    border-radius: 10px;
+    
+}
+.galeria p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 70%;
+    background: white;
+}
+table th, table td {
+    border: 1px solid #ffb6c1;
+    padding: 10px;
+}
+table th {
+    background: #ff69b4;
+    color: white;
+}
+table tr:nth-child(even) {
+    background: #ffeef6;
+}
+
+
+button {
+    padding: 10px 20px;
+    background: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background: #d63384;
+}
+
+
+footer {
+    background: #ffb6c1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.sem-pontos {
+      list-style-type: none; 
+      padding-left: 0;  
+    }
+

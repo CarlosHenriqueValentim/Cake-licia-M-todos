@@ -1,0 +1,113 @@
+@font-face {
+    font-family: curva;
+    src: url(fiolex_girls/Filxgirl.TTF);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff0f5;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #ff69b4, #ffb6c1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: curva;
+    font-size: 35px;
+}
+
+
+main{
+background-color: white;
+
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav {
+    background: #ffb6c1;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background: #ffe4ec;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ff69b4;
+}
+nav a {
+    color: #d63384;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 8px;
+
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ff1493;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.redes a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff1493;
+}
+
+footer {
+    background: #ffb6c1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
