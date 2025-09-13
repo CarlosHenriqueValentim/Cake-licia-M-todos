@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    font-family: "Italianno", cursive;
     background: linear-gradient(to right, #ff69b4, #ffb6c1);
     color: white;
     padding: 20px;
@@ -18,16 +19,22 @@ header img {
 }
 
 nav {
-    background: #ffb6c1;
+    background: #ffe4ec;
     padding: 10px;
     text-align: center;
+    border-bottom: 2px solid #ff69b4;
 }
-
 nav a {
-    color: black;
+    color: #d63384;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+nav a:hover {
+    background: #ff69b4;
+    color: white;
 }
 
 main {

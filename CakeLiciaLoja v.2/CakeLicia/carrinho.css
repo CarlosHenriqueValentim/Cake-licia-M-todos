@@ -6,37 +6,32 @@ body {
 }
 
 header {
+    font-family: "Italianno", cursive;
     background-color: #ff69b4;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-header img {
-    display: block;
-    margin: 0 auto 10px;
-    border-radius: 50%;
-}
 
 nav {
-    background: #ffb6c1;
+    background: #ffe4ec;
     padding: 10px;
     text-align: center;
-
-
-   
+    border-bottom: 2px solid #ff69b4;
 }
-
 nav a {
-    
-    color: black;
+    color: #d63384;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-
-
+    padding: 6px 12px;
+    border-radius: 8px;
 }
-
+nav a:hover {
+    background: #ff69b4;
+    color: white;
+}
 
 
 
@@ -54,20 +49,6 @@ section h2 {
     border-bottom: 2px solid #ffb6c1;
     padding-bottom: 5px;
     margin-bottom: 10px;
-}
-
-
-
-
-
-
-
-img {
-    margin: 15px auto;
-    display: block;
-    border-radius: 12px;
-    border: 2px solid #ffb6c1;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
 }
 
 
