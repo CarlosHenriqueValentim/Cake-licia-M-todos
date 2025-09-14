@@ -1,3 +1,10 @@
+@font-face {
+    font-family: curva;
+    src: url(fiolex_girls/Filxgirl.TTF);
+}
+
+
+
 /* Carrinho */
 #carrinho {
     position: fixed;
@@ -98,4 +105,10 @@
 
 #botaoComprar:hover {
     background: #ff69b4;
+}
+
+header{
+
+    font-family: curva;
+    font-size: 24px;
 }

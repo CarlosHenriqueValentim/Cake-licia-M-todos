@@ -1,3 +1,8 @@
+@font-face {
+    font-family: curva ;
+    src: url(fiolex_girls/Filxgirl.TTF);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
