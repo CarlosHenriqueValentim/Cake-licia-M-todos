@@ -1,8 +1,6 @@
 let carrinho = [];
 
-
 function adicionarAoCarrinho(nome, preco) {
-   
     let itemExistente = carrinho.find(item => item.nome === nome);
     
     if(itemExistente) {
@@ -14,12 +12,10 @@ function adicionarAoCarrinho(nome, preco) {
     atualizarCarrinho();
 }
 
-
 function removerDoCarrinho(nome) {
     carrinho = carrinho.filter(item => item.nome !== nome);
     atualizarCarrinho();
 }
-
 
 function atualizarCarrinho() {
     let lista = document.getElementById("itensCarrinho");
@@ -46,7 +42,6 @@ function atualizarCarrinho() {
     totalEl.textContent = `Total: R$ ${total.toFixed(2)}`;
 }
 
-
 function finalizarCompra() {
     if(carrinho.length === 0) {
         alert("Seu carrinho está vazio!");
@@ -65,7 +60,20 @@ function finalizarCompra() {
 
     alert(resumo);
 
- 
     carrinho = [];
     atualizarCarrinho();
+}
+
+
+function mostrarDescricao(nome, descricao) {
+    let modal = document.createElement("div");
+    modal.className = "modal";
+    modal.innerHTML = `
+        <div class="modal-conteudo">
+            <h2>${nome}</h2>
+            <p>${descricao}</p>
+            <button onclick="this.closest('.modal').remove()">Fechar</button>
+        </div>
+    `;
+    document.body.appendChild(modal);
 }

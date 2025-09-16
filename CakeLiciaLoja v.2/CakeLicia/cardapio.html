@@ -32,44 +32,141 @@
 
    
     <section>
-        <h2>Cupcakes Tradicionais</h2>
-        <div class="galeria">
-            <div><img src="CAKE1.jpeg" alt="Cupcake Chocolate"><p>Chocolate</p><p>R$ 6,00</p><button onclick="adicionarAoCarrinho('Chocolate', 6)">Adicionar no Carrinho</button></div>
-            <div><img src="Cupcake 5.jpg" alt="Cupcake Baunilha"><p>Baunilha</p><p>R$ 5,50</p><button onclick="adicionarAoCarrinho('Baunilha', 5.50)">Adicionar no Carrinho</button></div>
-            <div><img src="Cupcake 7.jpg" alt="Cupcake Morango"><p>Morango</p><p>R$ 6,50</p><button onclick="adicionarAoCarrinho('Morango', 6.50)">Adicionar no Carrinho</button></div>
-            <div><img src="Cupcake 6.jpg" alt="Cupcake Coco"><p>Coco</p><p>R$ 5,50</p><button onclick="adicionarAoCarrinho('Coco', 5.50)">Adicionar no Carrinho</button></div>
+    <h2>Cupcakes Tradicionais</h2>
+    <div class="galeria">
+        <div class="produto">
+            <img src="CAKE1.jpeg" alt="Cupcake Chocolate">
+            <p>Chocolate</p>
+            <p>R$ 6,00</p>
+            <button onclick="adicionarAoCarrinho('Chocolate', 6)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake de Chocolate', 'Massa fofinha de chocolate, recheio de brigadeiro cremoso e cobertura de ganache meio amargo.')">Ver detalhes</button>
         </div>
-    </section>
+        <div class="produto">
+            <img src="Cupcake 5.jpg" alt="Cupcake Baunilha">
+            <p>Baunilha</p>
+            <p>R$ 5,50</p>
+            <button onclick="adicionarAoCarrinho('Baunilha', 5.50)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake de Baunilha', 'Massa leve de baunilha, recheio de creme branco e cobertura de chantilly suave.')">Ver detalhes</button>
+        </div>
+        <div class="produto">
+            <img src="Cupcake 7.jpg" alt="Cupcake Morango">
+            <p>Morango</p>
+            <p>R$ 6,50</p>
+            <button onclick="adicionarAoCarrinho('Morango', 6.50)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake de Morango', 'Massa de baunilha com pedaços de morango, recheio de geleia artesanal e cobertura de chantilly cor-de-rosa.')">Ver detalhes</button>
+        </div>
+        <div class="produto">
+            <img src="Cupcake 6.jpg" alt="Cupcake Coco">
+            <p>Coco</p>
+            <p>R$ 5,50</p>
+            <button onclick="adicionarAoCarrinho('Coco', 5.50)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake de Coco', 'Massa branca macia, recheio cremoso de coco e cobertura com lascas frescas de coco.')">Ver detalhes</button>
+        </div>
+    </div>
+</section>
 
-    <section>
-        <h2>Cupcakes Especiais</h2>
-        <div class="galeria">
-            <div><img src="Cupcake 8.jpg" alt="Red Velvet"><p>Red Velvet</p><p>R$ 7,00</p><button onclick="adicionarAoCarrinho('Red Velvet', 7)">Adicionar no Carrinho</button></div>
-            <div><img src="Cupcake 9.jpg" alt="Nutella"><p>Nutella</p><p>R$ 7,50</p><button onclick="adicionarAoCarrinho('Nutella', 7.50)">Adicionar no Carrinho</button></div>
-            <div><img src="Cupcake 10.jpg" alt="Oreo"><p>Oreo</p><p>R$ 7,00</p><button onclick="adicionarAoCarrinho('Oreo', 7)">Adicionar no Carrinho</button></div>
-            <div><img src="Cupcake 11.jpg" alt="Maracujá"><p>Maracujá</p><p>R$ 6,50</p><button onclick="adicionarAoCarrinho('Maracujá', 6.50)">Adicionar no Carrinho</button></div>
+<section>
+    <h2>Cupcakes Especiais</h2>
+    <div class="galeria">
+        <div class="produto">
+            <img src="Cupcake 8.jpg" alt="Red Velvet">
+            <p>Red Velvet</p>
+            <p>R$ 7,00</p>
+            <button onclick="adicionarAoCarrinho('Red Velvet', 7)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake Red Velvet', 'Massa aveludada vermelha, recheio de cream cheese e cobertura cremosa com leve toque cítrico.')">Ver detalhes</button>
         </div>
-    </section>
+        <div class="produto">
+            <img src="Cupcake 9.jpg" alt="Nutella">
+            <p>Nutella</p>
+            <p>R$ 7,50</p>
+            <button onclick="adicionarAoCarrinho('Nutella', 7.50)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake de Nutella', 'Massa de chocolate, recheio generoso de Nutella e cobertura cremosa decorada com avelãs.')">Ver detalhes</button>
+        </div>
+        <div class="produto">
+            <img src="Cupcake 10.jpg" alt="Oreo">
+            <p>Oreo</p>
+            <p>R$ 7,00</p>
+            <button onclick="adicionarAoCarrinho('Oreo', 7)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake de Oreo', 'Massa de baunilha com pedaços de biscoito Oreo, recheio de creme e cobertura crocante.')">Ver detalhes</button>
+        </div>
+        <div class="produto">
+            <img src="Cupcake 11.jpg" alt="Maracujá">
+            <p>Maracujá</p>
+            <p>R$ 6,50</p>
+            <button onclick="adicionarAoCarrinho('Maracujá', 6.50)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake de Maracujá', 'Massa leve de baunilha, recheio de mousse de maracujá e cobertura com sementes crocantes.')">Ver detalhes</button>
+        </div>
+    </div>
+</section>
 
-    <section>
-        <h2>Opções Veganas e Sem Glúten</h2>
-        <div class="galeria">
-            <div><img src="Cupcake 12.jpg" alt="Chocolate Vegano"><p>Chocolate Vegano</p><p>R$ 7,00</p><button onclick="adicionarAoCarrinho('Chocolate Vegano', 7)">Adicionar no Carrinho</button></div>
-            <div><img src="Cupcake 13.jpg" alt="Banana com Canela"><p>Banana com Canela</p><p>R$ 6,50</p><button onclick="adicionarAoCarrinho('Banana com Canela', 6.50)">Adicionar no Carrinho</button></div>
-            <div><img src="Cupcake 14.jpg" alt="Frutas Vermelhas"><p>Frutas Vermelhas</p><p>R$ 7,50</p><button onclick="adicionarAoCarrinho('Frutas Vermelhas', 7.50)">Adicionar no Carrinho</button></div>
+<section>
+    <h2>Opções Veganas e Sem Glúten</h2>
+    <div class="galeria">
+        <div class="produto">
+            <img src="Cupcake 12.jpg" alt="Chocolate Vegano">
+            <p>Chocolate Vegano</p>
+            <p>R$ 7,00</p>
+            <button onclick="adicionarAoCarrinho('Chocolate Vegano', 7)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake Vegano de Chocolate', 'Massa de cacau 100%, sem derivados de leite, com cobertura de ganache vegano.')">Ver detalhes</button>
         </div>
-    </section>
+        <div class="produto">
+            <img src="Cupcake 13.jpg" alt="Banana com Canela">
+            <p>Banana com Canela</p>
+            <p>R$ 6,50</p>
+            <button onclick="adicionarAoCarrinho('Banana com Canela', 6.50)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake de Banana com Canela', 'Massa leve de banana madura, temperada com canela e cobertura de açúcar mascavo crocante.')">Ver detalhes</button>
+        </div>
+        <div class="produto">
+            <img src="Cupcake 14.jpg" alt="Frutas Vermelhas">
+            <p>Frutas Vermelhas</p>
+            <p>R$ 7,50</p>
+            <button onclick="adicionarAoCarrinho('Frutas Vermelhas', 7.50)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cupcake de Frutas Vermelhas', 'Massa de baunilha recheada com geleia de frutas vermelhas e cobertura suave de chantilly.')">Ver detalhes</button>
+        </div>
+    </div>
+</section>
 
-    <section>
-        <h2>Bebidas</h2>
-        <div class="galeria">
-            <div><img src="bebida2.jpg" alt="Café expresso"><p>Café expresso</p><p>R$ 4,00</p><button onclick="adicionarAoCarrinho('Café expresso', 4)">Adicionar no Carrinho</button></div>
-            <div><img src="bebida1.jpg" alt="Cappuccino"><p>Cappuccino</p><p>R$ 6,00</p><button onclick="adicionarAoCarrinho('Cappuccino', 6)">Adicionar no Carrinho</button></div>
-            <div><img src="bebida3.jpg" alt="Chocolate quente"><p>Chocolate quente</p><p>R$ 7,00</p><button onclick="adicionarAoCarrinho('Chocolate quente', 7)">Adicionar no Carrinho</button></div>
-            <div><img src="bebida4.jpg" alt="Suco natural"><p>Suco natural</p><p>R$ 5,50</p><button onclick="adicionarAoCarrinho('Suco natural', 5.50)">Adicionar no Carrinho</button></div>
-            <div><img src="bebida5.jpg" alt="Chá gelado"><p>Chá gelado</p><p>R$ 4,50</p><button onclick="adicionarAoCarrinho('Chá gelado', 4.50)">Adicionar no Carrinho</button></div>
+<section>
+    <h2>Bebidas</h2>
+    <div class="galeria">
+        <div class="produto">
+            <img src="bebida2.jpg" alt="Café expresso">
+            <p>Café expresso</p>
+            <p>R$ 4,00</p>
+            <button onclick="adicionarAoCarrinho('Café expresso', 4)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Café Expresso', 'Café 100% arábica, sabor intenso e aroma marcante, preparado na hora.')">Ver detalhes</button>
         </div>
-    </section>
+        <div class="produto">
+            <img src="bebida1.jpg" alt="Cappuccino">
+            <p>Cappuccino</p>
+            <p>R$ 6,00</p>
+            <button onclick="adicionarAoCarrinho('Cappuccino', 6)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Cappuccino', 'Café expresso cremoso, leite vaporizado e toque especial de canela.')">Ver detalhes</button>
+        </div>
+        <div class="produto">
+            <img src="bebida3.jpg" alt="Chocolate quente">
+            <p>Chocolate quente</p>
+            <p>R$ 7,00</p>
+            <button onclick="adicionarAoCarrinho('Chocolate quente', 7)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Chocolate Quente', 'Bebida cremosa de chocolate meio amargo com chantilly por cima.')">Ver detalhes</button>
+        </div>
+        <div class="produto">
+            <img src="bebida4.jpg" alt="Suco natural">
+            <p>Suco natural</p>
+            <p>R$ 5,50</p>
+            <button onclick="adicionarAoCarrinho('Suco natural', 5.50)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Suco Natural', 'Suco feito na hora com frutas frescas da estação, sem adição de açúcar.')">Ver detalhes</button>
+        </div>
+        <div class="produto">
+            <img src="bebida5.jpg" alt="Chá gelado">
+            <p>Chá gelado</p>
+            <p>R$ 4,50</p>
+            <button onclick="adicionarAoCarrinho('Chá gelado', 4.50)">Adicionar no Carrinho</button>
+            <button onclick="mostrarDescricao('Chá Gelado', 'Infusão natural de chá preto gelado com limão siciliano.')">Ver detalhes</button>
+        </div>
+    </div>
+</section>
+
 
     <footer>
         <p>&copy; 2025 CakeLicia - Todos os direitos reservados</p>
